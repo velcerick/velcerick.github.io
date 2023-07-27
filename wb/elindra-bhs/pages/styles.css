@@ -1,0 +1,29 @@
+table
+{
+	border-collapse: collapse;
+	padding: 0.33333rem 0.33333rem 0.33333rem
+}
+
+table thead
+{
+	background-color: #545454;
+	color: #fff;
+}
+
+tbody tr:nth-child(odd)
+{
+	background-color: #f7f7db;
+}
+
+tbody tr:nth-child(even)
+{
+	background-color: #fff;
+}
+
+table thead tr th,table thead tr td
+{
+	color:#fff;
+	font-size:1rem;
+	font-weight:bold;
+}
+
